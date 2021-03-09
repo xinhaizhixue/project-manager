@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="实际开始时间："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_renwukaishishijian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="实际结束时间："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_renwujieshushijian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_tianjiawancheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:text="添加完成"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_denglu_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

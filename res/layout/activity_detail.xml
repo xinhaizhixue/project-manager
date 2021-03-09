@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"
+        android:layout_below="@+id/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/v"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="任务详细信息："
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="任&#160;&#160;&#160;务&#160;&#160;&#160;名&#160;&#160;&#160;称："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_renwumingcheng"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="年的时间flak收费的煎熬的数据发快递就发了拉斯达克激发了肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="任&#160;务&#160;责&#160;任&#160;人："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_renwuzerenren"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="年的时间flak收费的煎熬的数据发快递就发了拉斯达克激发了肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="计划开始时间："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_jihuakaishishijian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="年的时间flak收费的煎熬的数据发快递就发了拉斯达克激发了肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="计划结束时间："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_jihuajieshushijian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="任&#160;&#160;&#160;务&#160;&#160;&#160;描&#160;&#160;&#160;述："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_renwumiaoshu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="年的时间flak收费的煎熬的数据发快递就发了拉斯达克激发了肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="任务录入时间："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_renwulurushijian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="年的时间flak收费的煎熬的数据发快递就发了拉斯达克激发了肯定是九分"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="任务跟踪信息："
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="实际开始时间："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_shijikaishishijian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="无"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="284dp"
+                        android:layout_height="wrap_content"
+                        android:text="实际结束时间："
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_shijijieshushijian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="无"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="任务批注："
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_pizhu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="无"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\n\n"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparent"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+
+                <Button
+                    android:id="@+id/btn_tianjiagenzongxinxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加跟踪"
+                    android:textColor="@color/colorBlue"
+                    android:background="@drawable/bg_cannotlogin_dialog"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorTransparent"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorTransparent"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btn_tianjiapizhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加批注"
+                    android:textColor="@color/colorBlue"
+                    android:background="@drawable/bg_cannotlogin_dialog"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
